@@ -2,4 +2,31 @@ site_name: ka-sarthak's website
 site_description: Thoughts and musings of a software engineer
 site_url: https://ka-sarthak.github.io/
 repo_url: https://github.com/ka-sarthak/website
-repo_name: "ka-sarthak/website"
+repo_name: ka-sarthak/website
+
+plugins:
+ - search
+theme:
+  name: material
+  palette:
+    primary: '#2A4CDF'
+    accent: '#008A67'
+  font:
+    text: 'Titillium Web'
+  icon:
+    logo: material/arrow-up-drop-circle-outline
+  features:
+    - navigation.instant
+    - announce.dismiss
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - toc.follow
