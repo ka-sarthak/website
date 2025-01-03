@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "website"
+dynamic = ["version"]
+requires-python = ">=3.12"
+authors = [
+    {name = "Sarthak Kapoor", email = "sarthakkapoor@hotmail.com"},
+]
+dependencies = [
+    "mkdocs",
+    "mkdocs-material",
+    "mkdocs-click",
+    "pymdown-extensions",
+]
+[project.optional-dependencies]
+dev = [
+    "ruff",
+]
