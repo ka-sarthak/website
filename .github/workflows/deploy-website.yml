@@ -27,5 +27,5 @@ jobs:
         run: |
           git config --unset-all http.https://github.com/.extraheader
           mkdocs gh-deploy --force \
-          --remote-name ka-sarthak.github.io \
+          --remote-name git@github.com:ka-sarthak/ka-sarthak.github.io.git \
           --remote-branch gh-pages
