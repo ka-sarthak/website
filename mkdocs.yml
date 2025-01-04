@@ -27,6 +27,14 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
-    - search.highlight
-    - search.suggest
-    - toc.follow
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Showcase:
+    - showcase.md
+    - "Projects":
+      - projects/llmads.md
+  - Posts:
+    - "2019":
+      - posts/running-inspiration.md
