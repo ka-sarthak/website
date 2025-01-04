@@ -25,6 +25,7 @@ jobs:
 
       - name: Build and Deploy
         run: |
+          git config --unset-all http.https://github.com/.extraheader
           mkdocs gh-deploy --force \
           --remote-name ka-sarthak.github.io \
           --remote-branch gh-pages
