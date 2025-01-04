@@ -24,8 +24,15 @@ jobs:
           pip install .
 
       - name: Build and Deploy
+        env:
+          ACTIONS_GITHUB_TOKEN: ${{ secrets.ACTIONS_GITHUB_TOKEN }}
         run: |
-          git config --unset-all http.https://github.com/.extraheader
-          mkdocs gh-deploy --force \
-          --remote-name git@github.com:ka-sarthak/ka-sarthak.github.io.git \
-          --remote-branch gh-pages
+          mkdocs build
+          git clone https://github.com/ka-sarthak/ka-sarthak.github.io.git
+          git checkout gh-pages
+          cd ka-sarthak.github.io
+          rm -rf *
+          cp -r ../site/* .
+          git add .
+          git commit -m "Automatic deployment"
+          git push https://ka-sarthak:${{ secrets.TARGET_REPO_PAT }}@github.com/ka-sarthak/ka-sarthak.github.io.git
