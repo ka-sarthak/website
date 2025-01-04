@@ -1,0 +1,3 @@
+# About
+
+Some things about me. Coming soon...
