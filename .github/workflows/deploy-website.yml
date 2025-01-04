@@ -36,6 +36,6 @@ jobs:
           cp -r ../site/* .
           git add .
           git commit -m "Automatic deployment"
-          git push -f
+          git push https://ka-sarthak:${{ secrets.ACTIONS_GITHUB_TOKEN }}@github.com/ka-sarthak/ka-sarthak.github.io.git
           cd ..
           rm -rf ka-sarthak.github.io
