@@ -26,5 +26,5 @@ jobs:
       - name: Build and Deploy
         run: |
           mkdocs gh-deploy --force \
-          --remote-name git@github.com:ka-sarthak/ka-sarthak.github.io.git \
+          --remote-name ka-sarthak.github.io \
           --remote-branch gh-pages
