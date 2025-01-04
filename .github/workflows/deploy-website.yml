@@ -27,15 +27,6 @@ jobs:
 
       - name: Build and Deploy
         run: |
-          mkdocs build
-          git clone https://github.com/ka-sarthak/ka-sarthak.github.io.git
-          cd ka-sarthak.github.io
-          git config user.email "sarthakkapoor@hotmail.com"
-          git config user.name "Sarthak Kapoor"
-          rm -rf *
-          cp -r ../site/* .
-          git add .
-          git commit -m "Automatic deployment"
-          git push https://ka-sarthak:${{ secrets.ACTIONS_GITHUB_TOKEN }}@github.com/ka-sarthak/ka-sarthak.github.io.git
-          cd ..
-          rm -rf ka-sarthak.github.io
+          mkdocs gh-deploy --force \
+          --remote-name https://ka-sarthak:${{ secrets.ACTIONS_GITHUB_TOKEN }}@github.com/ka-sarthak/ka-sarthak.github.io.git \
+          --remote-branch gh-pages
