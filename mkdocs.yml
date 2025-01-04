@@ -8,18 +8,27 @@ plugins:
  - search
 theme:
   name: material
-  palette:
-    primary: '#2A4CDF'
-    accent: '#008A67'
   font:
     text: 'Titillium Web'
   icon:
-    logo: material/arrow-up-drop-circle-outline
+    logo: material/telescope
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
   features:
     - navigation.instant
-    - announce.dismiss
-    - content.code.annotate
-    - content.code.copy
     - content.tooltips
     - navigation.footer
     - navigation.indexes
@@ -27,6 +36,13 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
+    # - announce.dismiss
+    # - content.code.annotate
+    # - content.code.copy
+    # - search.highlight
+    # - search.suggest
+    # - toc.follow
+    
 
 nav:
   - Home: index.md
