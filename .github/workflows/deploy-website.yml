@@ -30,7 +30,6 @@ jobs:
           mkdocs build
           git clone https://github.com/ka-sarthak/ka-sarthak.github.io.git
           cd ka-sarthak.github.io
-          git checkout gh-pages
           git config user.email "sarthakkapoor@hotmail.com"
           git config user.name "Sarthak Kapoor"
           rm -rf *
