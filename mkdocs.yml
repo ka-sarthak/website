@@ -27,6 +27,7 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
+  custom_dir: docs/templates
   features:
     - navigation.instant
     - content.tooltips

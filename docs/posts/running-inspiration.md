@@ -1,7 +1,10 @@
 ---
-layout: post
-place: Montreal, Canada
 title: Why does the mind say, “Don’t run.”?
+authors: 
+ - Sarthak Kapoor
+template: post.html
+date: 2019-06-13
+place: Montreal, CA
 ---
 
 Running comes naturally to us. Humans have been running since we climbed down the trees and ventured into hunting, and it wouldn’t be an exaggeration to say that our evolution to become upright animals bears a connection with our desire to stretch the legs. But when it comes to implementing a running routine, the reality is far more complicated.
@@ -18,5 +21,3 @@ Why is that we become half minds about important stuff in our lives, even for th
 We can go deeper into the discussions about what influence our decisions, but that is for a future article perhaps. In the nutshell, our natural response to anything new, running in my case, is invariably to stop, to ease ourselves out of the pain of it. But to accept that rationalization is not why we exist. We exist because we aim towards betterment, a result of our strong efforts.
 
 So next time when you encounter a feeling to stop and get back to the old life, remember that it is only natural to do so, but it is human to pull yourself forward. At least, that is what I tell myself every morning.
-
-SK
