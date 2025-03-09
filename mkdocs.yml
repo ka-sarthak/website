@@ -54,6 +54,7 @@ nav:
     - showcase.md
     - Projects:
       - showcase/llmads.md
+      - showcase/mm-generator.md
   - Posts:
     - "2019":
       - posts/running-inspiration.md
