@@ -10,5 +10,8 @@ projects:
   - name: mm-generator
     description: Implementation of various deep learning models to generate stress fields in material microstructure.
     media: mm-generator.png
+  - name: tracking-optima
+    description: An optima search routine that keeps a track of optima over time in dynamic systems.
+    media: tracking-optima.gif
  
 ---
