@@ -1,4 +1,4 @@
-# llmads
+# LLM parser
 
 ![llmads](../assets/showcase/llmads.gif)
 
