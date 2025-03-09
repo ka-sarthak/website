@@ -50,8 +50,8 @@ nav:
   - About: about.md
   - Showcase:
     - showcase.md
-    - "Projects":
-      - projects/llmads.md
+    - Projects:
+      - showcase/llmads.md
   - Posts:
     - "2019":
       - posts/running-inspiration.md
