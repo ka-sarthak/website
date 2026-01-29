@@ -1,3 +1,6 @@
 .post-meta {
     font-size: 0.8em;
 }
+div.email > span:nth-child(2) {
+	display: none;
+}

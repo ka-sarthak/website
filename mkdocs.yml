@@ -1,5 +1,5 @@
 site_name: ka-sarthak's website
-site_description: Thoughts and musings of a software engineer
+site_description: Personal website of Sarthak Kapoor
 site_url: https://ka-sarthak.github.io/
 repo_url: https://github.com/ka-sarthak/website
 repo_name: ka-sarthak/website
@@ -48,8 +48,7 @@ extra_css:
 - css/custom.css
 
 nav:
-  - Home: index.md
-  - About: about.md
+  - About: index.md
   - Showcase:
     - showcase.md
     - Projects:
